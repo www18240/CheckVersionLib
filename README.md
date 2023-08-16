@@ -1,4 +1,5 @@
-## CheckVersionLib[ ![Download](https://api.bintray.com/packages/zkxy/maven/VersionCheckLib/images/download.svg) ](https://bintray.com/zkxy/maven/VersionCheckLib/_latestVersion)
+## CheckVersionLib[![](https://jitpack.io/v/AlexLiuSheng/CheckVersionLib.svg)](https://jitpack.io/#AlexLiuSheng/CheckVersionLib)
+
 ## V2 Version has been born with shocking, strong functions,chain programing, easy to integrate,strong extension
 [中文文档](https://github.com/AlexLiuSheng/CheckVersionLib/blob/master/README_UN.MD)
 
@@ -22,15 +23,9 @@ The strongest feature is easier to integrate than version  of V1.+
 
 - [x] Support Silence Download （one line code）
 
-- [x] Adapt to Android Q
+- [x] Adapt to Android 13
 
 ### include
-
-#### jcenter
-```
-implementation 'com.allenliu.versionchecklib:library:2.2.3'
-```
-#### jitpack && androiud x
 ```
 allprojects {
 		repositories {
@@ -38,8 +33,12 @@ allprojects {
 			maven { url 'https://jitpack.io' }
 		}
 	}
+```
+
+```
+
 dependencies {
-	        implementation 'com.github.AlexLiuSheng:CheckVersionLib:2.2.3'
+	        implementation 'com.github.AlexLiuSheng:CheckVersionLib:2.4.2'
 	}
 ```
 
